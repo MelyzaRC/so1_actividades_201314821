@@ -75,3 +75,7 @@ sudo service actividad4 stop
 ```
 
 <img src="images/4.png" alt="drawing" width="800">
+
+Una vez que se ha reiniciado el sistema, podemos observar que el servicio vuelve a iniciar. 
+
+<img src="images/5.png" alt="drawing" width="800">
