@@ -48,10 +48,10 @@ sudo systemctl enable actividad4.service
 Para iniciar el servicio 
 
 ```
-sudo systemctl start actividad3.service
+sudo systemctl start actividad4.service
 ```
 
-- Verificando informaciòn de los servicios
+- Verificando información de los servicios
 
 ```
 sudo systemctl list-unit-files --type service --all
