@@ -101,7 +101,16 @@ int main() {
 
     fork();
 
- sleep(15); 
+ sleep(120); 
     return 0;
 }
 ```
+
+|¿Cuántos procesos únicos son creados?|
+|--|
+||
+
+
+|¿Cuántos hilos únicos son creados?|
+|--|
+||
