@@ -22,10 +22,6 @@ int main(){
 }
 ```
 
-Estado de los procesos
-
-<img src="images/zoombie.png" alt="drawing" width="1000">
-
 |Respuesta|
 |--|
 |El programa crea un total de 8 hilos, esto debido a que el programa principal crea el primer proceso, seguido de este, el primer *fork* crea un segundo proceso, en total tendríamos dos.  Seguido de este, el segundo *fork* genera un proceso para cada uno de los actuales, teniendo 4. Y por último, el *fork* final genera un proceso por cada uno de los existentes. Esto nos da un total de 8 procesos en total. |
@@ -61,6 +57,9 @@ int main() {
 }
 ```
 
+Estado de los procesos
+
+<img src="images/zoombie.png" alt="drawing" width="1000">
 
 - **Ejercicio 3**
 
