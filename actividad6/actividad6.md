@@ -108,9 +108,9 @@ int main() {
 
 |¿Cuántos procesos únicos son creados?|
 |--|
-||
+|Son creados 5 procesos únicos|
 
 
 |¿Cuántos hilos únicos son creados?|
 |--|
-||
+|Son creados 2 hilos únicos|
