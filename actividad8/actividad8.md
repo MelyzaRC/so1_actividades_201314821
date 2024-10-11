@@ -93,7 +93,15 @@ kubectl port-forward pods/podactividad8 8888:80 -n default
 <img src="images/4.png" alt="drawing" width="1000">
 
 - Validar funcionamiento
+  
 
 Para validar el funcionamiento de nuestro contenedor, debemos acceder a nuestro *localhost* en el puesto que hemos mapeado. En este caso la dirección a la que accederemos es ***http://localhost:8888***. 
 
 <img src="images/5.png" alt="drawing" width="1000">
+
+
+## Pregunta 
+
+|¿En un ambiente local de Kubernetes existen los nodos masters y workers, como es que esto funciona?|
+|--|
+|No, en un ambiente local, ya que es orientado a pruebas, solamente existe un nodo. Este nodo tiene la capacidad de actuar como master y worker. |
