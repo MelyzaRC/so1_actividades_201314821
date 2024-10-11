@@ -27,5 +27,14 @@ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 ```
 
+- Iniciar *minikube*
+
+```
+minikube start
+```
+
+<img src="images/1.png" alt="drawing" width="700">
+
+
 > **Nota:** Se debe tener instalado *kubectl* para poder interactuar con la herramienta *minikube*.
 
